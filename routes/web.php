@@ -76,3 +76,7 @@ Route::get('admin/voyager-assets', 'TCG\Voyager\Http\Controllers\VoyagerControll
 //自定義後台路由規則
 Route::group(['prefix' => 'admin', 'namespace' => '\App\Http\Controllers', 'middleware' => ['web', 'javck.roleCheck', 'javck.verifyEnabled']], function () {
 });
+
+//加入一路由
+
+//新改動
